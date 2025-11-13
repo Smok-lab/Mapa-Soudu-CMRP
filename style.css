@@ -1,1 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+}
 
+#map {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  background: url("court_map.png") no-repeat;
+  background-size: cover;
+  border: 2px solid #333;
+  margin: 20px auto;
+}
+
+.deputy {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: rgba(0, 0, 255, 0.7);
+  border: 2px solid #fff;
+  cursor: pointer;
+}
